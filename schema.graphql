@@ -1,0 +1,17 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type HelloWorldOutput {
+  error: String
+  message: String
+  ok: Boolean!
+}
+
+type Query {
+  test(input: HelloWorldInput!): HelloWorldOutput!
+}
+
+input HelloWorldInput {
+  message: String!
+}
